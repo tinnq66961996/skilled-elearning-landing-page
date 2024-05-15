@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/favicon-32x32.png"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+            rel="stylesheet"
+        />
+        <link href="./src/output.css" rel="stylesheet" />
+
+        <title>Frontend Mentor | Skilled e-learning landing page</title>
+    </head>
+    <body>
+        <div class="container w-screen md:flex md:flex-col lg:flex lg:flex-col">
+            <header
+                class="flex m-[1.6rem] gap-[11.4rem] w-[34.3rem] md:w-[68.9rem] md:justify-between md:mx-auto md:my-[4rem] lg:ml-[10rem] lg:w-[115rem]"
+            >
+                <img
+                    src="starter-code/assets/logo-dark.svg"
+                    class="w-[8.9rem] h-[3.5rem] lg:left-[5rem]"
+                />
+                <button
+                    class="w-[14rem] h-[4.8rem] bg-[#13183f] text-[#ffffff] rounded-[2.8rem] text-[1.6rem] font-bold lg:w-[16.7rem] lg:h-[5.6rem] lg:text-[1.8rem]"
+                >
+                    Get started
+                </button>
+            </header>
+            <div
+                class="advertising flex flex-col md:w-[39.8rem] md:gap-[2.5rem] lg:ml-[10rem] lg:mt-[5rem]"
+            >
+                <h1
+                    class="text-[#13183F] text-[4rem] m-[1.6rem] font-extrabold lg:m-0"
+                >
+                    Maximize skill, minimize budget
+                </h1>
+                <p
+                    class="m-[1.6rem] text-[1.6rem] font-medium text-[#83869A] lg:m-0"
+                >
+                    Our modern courses across a range of in-demand skills will
+                    give you the knowledge you need to live the life you want.
+                </p>
+                <button
+                    class="w-[16.7rem] h-[5.6rem] text-[#ffffff] font-bold text-[1.6rem] bg-gradient-to-b from-[#FF6F48] to-[#F02AA6] m-[1.6rem] rounded-[3.2rem] self-center md:self-start lg:m-0"
+                >
+                    Get started
+                </button>
+            </div>
+            <img
+                src="starter-code/assets/image-hero-mobile@2x.webp"
+                alt="image 1"
+                class="block md:hidden"
+            />
+            <img
+                src="starter-code/assets/image-hero-desktop@2x.webp"
+                alt="image 2"
+                class="hidden md:block w-[64rem] h-[64rem] md:absolute md:right-[-25rem] md:top-[-5rem] lg:right-[-16rem] lg:top-[-8rem]"
+            />
+            <div
+                class="background-information md:w-screen md:bg-gradient-to-b from-[#fff] to-[#F0F1FF] md:h-[100rem] md:mt-[7rem] lg:w-screen"
+            >
+                <div
+                    class="information w-screen bg-gradient-to-b from-[#fff] to-[#F0F1FF] flex flex-col gap-[1.6rem] items-center h-[160rem] md:grid md:grid-cols-2 md:grid-rows-3 md:gap-[3.2rem] md:w-[68.9rem] md:h-[91.3rem] md:m-auto lg:w-[111rem] lg:h-[74.8rem] lg:grid-cols-3 lg:grid-rows-2 lg:gap-[1.6rem] lg:ml-[10rem]"
+                >
+                    <div
+                        class="text-[2.4rem] font-extrabold text-[#ffffff] rounded-[1rem] bg-gradient-to-b from-[#FF6F48] to-[#F02AA6] w-[34.3rem] h-[12rem] p-[2.8rem] m-[1.6rem] md:w-[33.9rem] md:h-[25.9rem] md:m-[0] md:p[0]"
+                    >
+                        Check out our most popular courses!
+                    </div>
+
+                    <div
+                        class="flex flex-col gap-[1.6rem] w-[34.3rem] h-[28.3rem] bg-white px-[3.2rem]"
+                    >
+                        <img
+                            src="starter-code/assets/icon-animation.svg"
+                            class="w-[5.6rem]"
+                        />
+
+                        <h4 class="text-[#13183F] text-[2rem] font-extrabold">
+                            Animation
+                        </h4>
+                        <p class="text-[1.6rem] font-medium text-[#83869A]">
+                            Learn the latest animation techniques to create
+                            stunning motion design and captivate your audience.
+                        </p>
+                        <h5 class="text-[#F74780] text-[1.8rem] font-bold">
+                            Get started
+                        </h5>
+                    </div>
+                    <div
+                        class="flex flex-col gap-[1.6rem] w-[34.3rem] h-[28.3rem] bg-white px-[3.2rem]"
+                    >
+                        <img
+                            src="starter-code/assets/icon-design.svg"
+                            class="w-[5.6rem]"
+                        />
+
+                        <h4 class="text-[#13183F] text-[2rem] font-extrabold">
+                            Design
+                        </h4>
+                        <p class="text-[1.6rem] font-medium text-[#83869A]">
+                            Create beautiful, usable interfaces to help shape
+                            the future of how the web looks.
+                        </p>
+                        <h5 class="text-[#F74780] text-[1.8rem] font-bold">
+                            Get started
+                        </h5>
+                    </div>
+                    <div
+                        class="flex flex-col gap-[1.6rem] w-[34.3rem] h-[28.3rem] bg-white px-[3.2rem]"
+                    >
+                        <img
+                            src="starter-code/assets/icon-photography.svg"
+                            class="w-[5.6rem]"
+                        />
+
+                        <h4 class="text-[#13183F] text-[2rem] font-extrabold">
+                            Photography
+                        </h4>
+                        <p class="text-[1.6rem] font-medium text-[#83869A]">
+                            Explore critical fundamentals like lighting,
+                            composition, and focus to capture exceptional
+                            photos.
+                        </p>
+                        <h5 class="text-[#F74780] text-[1.8rem] font-bold">
+                            Get started
+                        </h5>
+                    </div>
+                    <div
+                        class="flex flex-col gap-[1.6rem] w-[34.3rem] h-[28.3rem] bg-white px-[3.2rem]"
+                    >
+                        <img
+                            src="starter-code/assets/icon-crypto.svg"
+                            class="w-[5.6rem]"
+                        />
+
+                        <h4 class="text-[#13183F] text-[2rem] font-extrabold">
+                            Crypto
+                        </h4>
+                        <p class="text-[1.6rem] font-medium text-[#83869A]">
+                            All you need to know to get started investing in
+                            crypto. Go from beginner to advanced with this 54
+                            hour course.
+                        </p>
+                        <h5 class="text-[#F74780] text-[1.8rem] font-bold">
+                            Get started
+                        </h5>
+                    </div>
+                    <div
+                        class="flex flex-col gap-[1.6rem] w-[34.3rem] h-[28.3rem] bg-white px-[3.2rem]"
+                    >
+                        <img
+                            src="starter-code/assets/icon-business.svg"
+                            class="w-[5.6rem]"
+                        />
+
+                        <h4 class="text-[#13183F] text-[2rem] font-extrabold">
+                            Business
+                        </h4>
+                        <p class="text-[1.6rem] font-medium text-[#83869A]">
+                            A step-by-step playbook to help you start, scale,
+                            and sustain your business without outside
+                            investment.
+                        </p>
+                        <h5 class="text-[#F74780] text-[1.8rem] font-bold">
+                            Get started
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <footer
+                class="bg-[#13183F] w-screen h-[12rem] px-[1.6rem] py-[3rem] flex items-center gap-[11.4rem] md:h-[12rem] md:justify-between md:px-[6.4rem] lg:w-screen"
+            >
+                <img
+                    src="starter-code/assets/logo-light.svg"
+                    class="h-[3.5rem] w-[8.9rem]"
+                />
+                <button
+                    class="w-[14rem] h-[4.8rem] bg-gradient-to-b from-[#4851FF] to-[#F02AA6] text-[#fff] rounded-[2.8rem] text-[1.6rem] font-bold lg:w-[16.7rem]"
+                >
+                    Get started
+                </button>
+            </footer>
+        </div>
+    </body>
+</html>
